@@ -183,3 +183,62 @@
 2021-11-01T21:21:11.119+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0440335}
 2021-11-01T21:21:25.253+0800	INFO	web_app/main.go:87	Shutdown Server ...
 2021-11-01T21:21:25.266+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T19:41:14.875+0800	INFO	logger/logger.go:77	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0458323}
+2021-11-04T19:44:07.153+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 404, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:44:46.066+0800	INFO	logger/logger.go:77	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0005595}
+2021-11-04T19:44:52.982+0800	INFO	logger/logger.go:77	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0225549}
+2021-11-04T19:45:52.776+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 404, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:45:53.493+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 404, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:45:54.151+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 404, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:45:54.761+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 404, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:46:16.424+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T19:46:16.438+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T19:46:22.681+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0006489}
+2021-11-04T19:47:32.489+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T19:47:32.497+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T19:47:38.663+0800	ERROR	controllers/post.go:13	CreatePostHandler failed	{"error": "json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
+2021-11-04T19:47:38.663+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0005403}
+2021-11-04T19:47:39.479+0800	ERROR	controllers/post.go:13	CreatePostHandler failed	{"error": "json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
+2021-11-04T19:47:39.479+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0010716}
+2021-11-04T19:48:07.621+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0002991}
+2021-11-04T19:48:16.039+0800	INFO	logger/logger.go:77	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0536276}
+2021-11-04T19:48:35.540+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:48:43.910+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:48:44.870+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T19:50:04.710+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T19:50:04.717+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T19:50:11.492+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0560742}
+2021-11-04T20:41:14.199+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T20:41:14.202+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T20:41:49.899+0800	INFO	logger/logger.go:77	/api/v1/post/178111167326064640	{"status": 200, "method": "GET", "path": "/api/v1/post/178111167326064640", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0439703}
+2021-11-04T20:41:56.427+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0}
+2021-11-04T20:41:57.488+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0006645}
+2021-11-04T20:42:15.655+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0472211}
+2021-11-04T20:44:50.597+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T20:44:50.607+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T20:44:57.254+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0666866}
+2021-11-04T20:44:58.197+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0488079}
+2021-11-04T20:45:00.635+0800	INFO	logger/logger.go:77	/api/v1/post/178111167326064640	{"status": 200, "method": "GET", "path": "/api/v1/post/178111167326064640", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0494911}
+2021-11-04T20:46:22.343+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T20:46:22.354+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T20:46:30.057+0800	ERROR	mysql/community.go:25	db get error:	{"error": "missing destination name create_time in *models.CommunityDetail"}
+2021-11-04T20:46:30.057+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.038799}
+2021-11-04T20:49:25.769+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T20:49:25.771+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T20:49:31.746+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0410535}
+2021-11-04T20:52:34.472+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T20:52:34.481+0800	INFO	web_app/main.go:96	Server exiting
+2021-11-04T21:08:03.084+0800	ERROR	mysql/community.go:25	db get error:	{"error": "sql: no rows in result set"}
+2021-11-04T21:08:03.085+0800	INFO	logger/logger.go:77	/api/v1/post/178111167326064640	{"status": 200, "method": "GET", "path": "/api/v1/post/178111167326064640", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.1304993}
+2021-11-04T21:09:06.847+0800	ERROR	mysql/community.go:25	db get error:	{"error": "sql: no rows in result set"}
+2021-11-04T21:09:06.848+0800	INFO	logger/logger.go:77	/api/v1/post/178111167326064640	{"status": 200, "method": "GET", "path": "/api/v1/post/178111167326064640", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.1245531}
+2021-11-04T21:10:02.492+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0413891}
+2021-11-04T21:10:03.678+0800	INFO	logger/logger.go:77	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0412732}
+2021-11-04T21:12:02.808+0800	INFO	logger/logger.go:77	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.0451541}
+2021-11-04T21:12:06.740+0800	ERROR	mysql/community.go:25	db get error:	{"error": "sql: no rows in result set"}
+2021-11-04T21:12:06.740+0800	INFO	logger/logger.go:77	/api/v1/post/178111167326064640	{"status": 200, "method": "GET", "path": "/api/v1/post/178111167326064640", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.1213728}
+2021-11-04T21:12:08.518+0800	ERROR	mysql/community.go:25	db get error:	{"error": "sql: no rows in result set"}
+2021-11-04T21:12:08.518+0800	INFO	logger/logger.go:77	/api/v1/post/178111167326064640	{"status": 200, "method": "GET", "path": "/api/v1/post/178111167326064640", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.1340525}
+2021-11-04T21:12:30.264+0800	INFO	logger/logger.go:77	/api/v1/post/178131766928740352	{"status": 200, "method": "GET", "path": "/api/v1/post/178131766928740352", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.28.3", "errors": "", "cost": 0.1221432}
+2021-11-04T21:13:14.746+0800	INFO	web_app/main.go:87	Shutdown Server ...
+2021-11-04T21:13:14.757+0800	INFO	web_app/main.go:96	Server exiting

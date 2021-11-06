@@ -6,12 +6,13 @@ import (
 )
 
 const ContextUsername = "username"
+const ContextUserID = "userID"
 
 var ErrorUserNotLogin = errors.New("用户未登录")
 
 // GetCurrentUser 获取当前用户登录ID
 func GetCurrentUser(c *gin.Context) (userID int64, err error) {
-	uid, ok := c.Get(ContextUsername)
+	uid, ok := c.Get(ContextUserID)
 	if !ok {
 		err = ErrorUserNotLogin
 		return

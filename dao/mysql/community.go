@@ -20,8 +20,9 @@ func GetCommunityList() (communityList []*models.Community, err error) {
 
 func GetCommunityDetailByID(id int64) (communityDetail *models.CommunityDetail, err error) {
 	communityDetail = new(models.CommunityDetail)
-	sqlStr := `select community_id,community_name,introduction,create_time from community where community_id = ?`
+	sqlStr := `select community_id, community_name, introduction, create_time from community where community_id = ?`
 	if err := db.Get(communityDetail, sqlStr, id); err != nil {
+		zap.L().Error("db get error:", zap.Error(err))
 		if err == sql.ErrNoRows {
 			err = ErrorInvalidID
 		}
